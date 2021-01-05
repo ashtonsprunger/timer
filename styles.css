@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  display: flex;
+  font-size: 30px;
+}
+
+#input {
+  font-size: 20px;
+  width: 100%;
+  margin-left: 0.5em;
+}
+
+#seconds {
+  font-size: 200px;
+  text-align: end;
+  line-height: 0px;
+}
+
+#tenths {
+  font-size: 100px;
+  line-height: 0px;
+  text-align: end;
+  margin-right: 10px;
+}
+
+.buttons {
+  /* font-size: 100px; */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 50px;
+  color: white;
+}
+
+#start {
+  background-color: green;
+}
+
+#reset {
+  background-color: red;
+}
