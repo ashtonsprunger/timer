@@ -11,6 +11,7 @@ let button = document.getElementById("start");
 let form = document.getElementById("form");
 let input = document.getElementById("input");
 let reset = document.getElementById("reset");
+let beep = document.getElementById("beep");
 
 let runningInterval = "hi";
 
@@ -79,6 +80,7 @@ function startTimer() {
       RUNNING = false;
       MIDWAY = false;
       TIMELEFT = 0;
+      beep.play();
     }
   }, 100);
 }
