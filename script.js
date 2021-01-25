@@ -18,6 +18,10 @@ form.addEventListener("submit", formSubmit);
 button.addEventListener("click", handleStopStart);
 reset.addEventListener("click", resetTime);
 
+input.addEventListener("focusout", (e) => {
+  formSubmit(e);
+});
+
 function resetTime() {
   console.log("reset");
   window.clearInterval(runningInterval);
